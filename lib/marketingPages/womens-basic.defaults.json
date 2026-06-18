@@ -1,0 +1,104 @@
+{
+  "seo": {
+    "metaTitle": "Self defense training — Women's Basic Course | Model Mugging",
+    "metaDescription": "The flagship Model Mugging weekend for women: full-force padded-assailant training, small classes, and a proven two-day curriculum since 1971.",
+    "keywords": [
+      "women self defense",
+      "Model Mugging basic course",
+      "padded assailant training",
+      "weekend self defense"
+    ]
+  },
+  "mensBasicContent": {
+    "heroSubtitle": "Flagship weekend course: full-force padded-assailant drills, small classes, and a two-day curriculum grounded in decades of research.",
+    "fullForceHeading": "Empowerment self defense in a weekend",
+    "fullForceParagraphs": [
+      "Female instructors coach you through every scenario. Established in 1971, Model Mugging is the original adrenaline stress training course and the originator of the padded attacker. You practice at full intensity safely—so your body remembers under stress.",
+      "Verbal de-escalation, boundaries, and physical skills are taught in one progression with trauma-informed pacing and individualized scenarios. Graduation recognizes completion of the full curriculum."
+    ]
+  },
+  "mensBasicBodyContent": {
+    "courseHeading": "Course description",
+    "shortIntenseHeading": "Day one & day two",
+    "referencesHeading": "Outcomes & the Model Mugging advantage",
+    "courseParagraphs": [
+      "We designed the two-day weekend class to fit busy schedules while still delivering personalized, full-force training against a padded assailant.",
+      "By combining martial science and research from multiple disciplines, we shorten the learning curve without sacrificing depth. Content draws from analysis of thousands of crimes, literature review, and interviews with predators and survivors.",
+      "Students often describe how different it feels to strike at full power—and to do it safely with professional coaching."
+    ],
+    "shortIntenseBody": "Day one sets the foundation for full-force reality-based training: mindset for fighting back, crime prevention pyramid, how crime is emotional, physical, and cognitive, types of violence, criminal mindset and behavioral patterns, and assertive boundary skills. You learn awareness strategies and personal behavioral assessment while practicing simple countermeasures to common predator attacks on women.\n\nDay two covers criminal vulnerability, dynamics of sex crimes, four phases of assault, rapist typologies, drug-facilitated sexual assaults, legalities of defending yourself, defense from behind and while lying down, and options when de-escalation fails—for acquaintances and strangers.",
+    "referencesParagraphs": [
+      "Learn proven options to resolve fears about street crime and crime within relationships. Develop practical, free-flow fighting skills embedded in long-term muscle memory. Train at full force against a single, unarmed attacker. Transform fear into strength and learn to harness fear as a life tool—you can do it.",
+      "More than fifty years of applied research and experience in empowerment self-defense training. Maximum class size is twelve for a high instructor-to-student ratio. Scenarios are individualized to each student's physical and emotional capabilities in a supportive group setting."
+    ]
+  },
+  "mensBasicPlanNextStep": {
+    "eyebrow": "Plan your next step",
+    "title": "Women's basic — find a class with confidence",
+    "subtitle": "Browse the schedule for dates in your city, or contact us if you need help choosing the right cohort.",
+    "primaryLabel": "View schedule",
+    "primaryHref": "/schedule",
+    "secondaryLabel": "Contact us",
+    "secondaryHref": "/contact"
+  },
+  "mensBasicPageSections": [
+    {
+      "_type": "imageCardsSection",
+      "_key": "explore-resources",
+      "title": "Related training pages",
+      "subtitle": "Explore adjacent programs and planning resources.",
+      "cards": [
+        {
+          "_key": "card-types",
+          "title": "Types of training",
+          "description": "Compare workshops with basic, advanced, and specialty tracks.",
+          "href": "/types-of-training",
+          "linkLabel": "Explore training types"
+        },
+        {
+          "_key": "card-workshop",
+          "title": "Self defense workshop",
+          "description": "Shorter formats for teams and communities.",
+          "href": "/self-defense-workshop",
+          "linkLabel": "Workshop overview"
+        },
+        {
+          "_key": "card-format",
+          "title": "Course format & graduation",
+          "description": "Weekend flow, intensity, and graduation standards.",
+          "href": "/course-description",
+          "linkLabel": "Format & graduation"
+        }
+      ]
+    },
+    {
+      "_type": "imageCardsSection",
+      "_key": "more-training",
+      "title": "More in Training",
+      "subtitle": "Continue browsing related pages from the same section.",
+      "cards": [
+        {
+          "_key": "more-types",
+          "title": "Types of training",
+          "description": "Open Types of training details and local context.",
+          "href": "/types-of-training",
+          "linkLabel": "Open page"
+        },
+        {
+          "_key": "more-course",
+          "title": "Course description",
+          "description": "Open Course description details and local context.",
+          "href": "/course-description",
+          "linkLabel": "Open page"
+        },
+        {
+          "_key": "more-instructor",
+          "title": "Instructor certification",
+          "description": "Open Instructor certification details and local context.",
+          "href": "/self-defense-instructor-training-and-certification",
+          "linkLabel": "Open page"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "seo": {
+    "metaTitle": "Help Expand the Circle of Courage | Model Mugging",
+    "metaDescription": "Support Model Mugging Self Defense Foundation — a 501(c)(3) nonprofit expanding access to full-force empowerment and crime prevention training.",
+    "keywords": ["donate", "nonprofit", "Model Mugging", "empowerment", "501c3"]
+  },
+  "mensBasicContent": {
+    "heroSubtitle": "Model Mugging Self Defense Foundation is a registered 501(c)(3) nonprofit organization.",
+    "fullForceHeading": "Help Change Lives!",
+    "fullForceParagraphs": [
+      "Model Mugging graduates commonly report back to us describing how the program positively changed their lives. Your tax-deductible donation will help pass the illuminating torch of empowerment onto others.",
+      "Model Mugging Self-Defense is a nonprofit organization dedicated to providing effective crime prevention education to a wider audience through the highest quality instructors and teaching methodologies. The organization raises funds to ensure superior quality and consistency of instruction in class and during instructor training while keeping tuition affordable and class locations accessible to a diverse range of students."
+    ]
+  },
+  "mensBasicBodyContent": {
+    "courseHeading": "Model Mugging’s Mission is to share the role model mastery system to help people avoid and overcome threats, as well as stop caustic cycles of abuse, and:",
+    "courseParagraphs": [
+      "Provide the most advanced training in crime prevention, empowerment, personal safety, and self-defense in the United States and abroad;",
+      "Provide empowerment training that reaches those in need;",
+      "Certify instructors in Model Mugging’s martial science training methodologies that maintain the highest quality of instruction, and increase the number of people we can empower with a higher quality of life as a result of the training;",
+      "Improve human performance, crime reduction, and gender appreciation."
+    ],
+    "shortIntenseHeading": "Your support matters",
+    "shortIntenseBody": "Your support can expand access to prevention, preparedness, confidence under stress, and the ability to act when it matters. Most importantly, use the power of fear for growth and expansion in life.",
+    "referencesHeading": "Thank you",
+    "referencesParagraphs": ["Thank you for your support and generosity!"]
+  },
+  "mensBasicPlanNextStep": {
+    "eyebrow": "Give now",
+    "title": "Help expand the circle of courage",
+    "subtitle": "Donate through PayPal below or use Stripe for secure card payment.",
+    "primaryLabel": "View schedule",
+    "primaryHref": "/schedule",
+    "secondaryLabel": "Contact us",
+    "secondaryHref": "/contact"
+  },
+  "mensBasicPageSections": []
+}

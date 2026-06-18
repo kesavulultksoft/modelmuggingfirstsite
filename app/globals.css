@@ -1,0 +1,181 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: var(--font-display), ui-serif, Georgia, serif;
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+
+  --color-mm-navy-950: #0b1a3e;
+  --color-mm-navy-900: #0d2260;
+  --color-mm-navy-800: #1b3a8c;
+  --color-mm-navy-700: #2a4a9e;
+  --color-mm-cyan: #00aeef;
+  --color-mm-cyan-dark: #0090c5;
+  --color-mm-sky: #e8f4fd;
+  --color-mm-sky-deep: #d0e8f7;
+  --color-mm-white: #ffffff;
+  --color-mm-muted: #64748b;
+  --color-mm-line: #e2e8f0;
+  --color-mm-gold: #f59e0b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-slate-800 antialiased;
+}
+
+/* Header aligns with page content */
+.site-header-inner {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10 xl:px-12;
+}
+
+/* Same horizontal rhythm as /locations — all marketing internal pages */
+.site-page-shell {
+  @apply mx-auto w-full max-w-7xl px-4 py-12 sm:px-6 sm:py-14 lg:px-10 lg:py-16 xl:px-12;
+}
+.site-page-inner-wide {
+  @apply w-full max-w-6xl xl:max-w-7xl text-left;
+}
+/* Horizontal padding only (sections on home, etc.) */
+.site-page-gutter-x {
+  @apply px-4 sm:px-6 lg:px-10 xl:px-12;
+}
+
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-mm-cyan;
+}
+
+.prose-mm {
+  @apply text-slate-600 leading-relaxed;
+}
+
+.prose-mm h2 {
+  @apply text-mm-navy-800 font-bold text-xl mt-10 mb-4;
+}
+
+.prose-mm p {
+  @apply mb-4;
+}
+
+.prose-mm ul {
+  @apply list-disc pl-6 mb-4 space-y-2;
+}
+
+/* Inner pages — aligns with portal / auth (teal + slate) */
+.prose-site {
+  @apply text-slate-600 leading-relaxed;
+}
+.prose-site h2 {
+  @apply text-slate-900 font-bold text-xl mt-10 mb-4;
+}
+.prose-site p {
+  @apply mb-4;
+}
+.prose-site ul {
+  @apply list-disc pl-6 mb-4 space-y-2;
+}
+.prose-site a {
+  @apply font-semibold text-teal-600 hover:text-teal-800 hover:underline;
+}
+.prose-site strong {
+  @apply text-teal-900 font-semibold;
+}
+
+/* City location pages — navy CTAs must stay white (prose-site links are teal by default) */
+.prose-site a.location-cta,
+.prose-site a.location-cta:hover,
+.prose-site a.location-cta:focus-visible {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.prose-site a.location-cta span {
+  color: #fff !important;
+}
+.prose-site a.location-cta .location-cta-desc {
+  color: rgb(255 255 255 / 0.85) !important;
+}
+
+/* Hub link grids — avoid inheriting prose list bullets / link underlines from a parent .prose-site */
+.hub-resource-section {
+  @apply max-w-none;
+}
+.hub-resource-section a {
+  @apply no-underline;
+}
+
+.text-gradient-cyan {
+  background: linear-gradient(135deg, #00aeef 0%, #7dd3fc 50%, #38bdf8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-teal {
+  background: linear-gradient(135deg, #00d4aa 0%, #5eead4 45%, #14b8a6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtle film grain on dark sections */
+.mm-noise {
+  position: relative;
+}
+.mm-noise::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.04;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@keyframes mm-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-mm-marquee {
+  animation: mm-marquee 45s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-mm-marquee {
+    animation: none;
+  }
+}
+
+@keyframes mm-shine {
+  0% {
+    background-position: 200% center;
+  }
+  100% {
+    background-position: -200% center;
+  }
+}
+
+.mm-cta-shine {
+  background: linear-gradient(
+    105deg,
+    #00d4aa 0%,
+    #00d4aa 38%,
+    #5eead4 50%,
+    #00d4aa 62%,
+    #00d4aa 100%
+  );
+  background-size: 200% auto;
+  animation: mm-shine 4s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mm-cta-shine {
+    animation: none;
+    background: #00d4aa;
+  }
+}

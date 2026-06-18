@@ -1,0 +1,107 @@
+{
+  "seo": {
+    "metaTitle": "Men's Basic Self-Defense | Model Mugging",
+    "metaDescription": "Full-force self-defense training for men — padded-assailant scenarios, stress inoculation, martial science, and practical weekend formats.",
+    "keywords": [
+      "mens self defense",
+      "Model Mugging men",
+      "full force self defense",
+      "padded assailant",
+      "adrenaline stress training"
+    ]
+  },
+  "mensBasicContent": {
+    "heroSubtitle": "Program details, format, and what to expect from this Model Mugging training path.",
+    "fullForceHeading": "Full Force Fighting for Men",
+    "fullForceParagraphs": [
+      "Model Mugging Self-Defense is the original full force Adrenaline Stress Training program using the padded assailant. Model Mugging applies the Five Principles of Self-Defense and begins with research into criminal assaults.",
+      "In the development of our Men's Course, over 1000 bar and prison fights against men were analyzed to shape realistic, practical curriculum."
+    ]
+  },
+  "mensBasicBodyContent": {
+    "courseHeading": "Men's Model Mugging Self-Defense Course",
+    "shortIntenseHeading": "Short – Intense – Effective",
+    "referencesHeading": "Men's Course Self Defense Course References",
+    "courseParagraphs": [
+      "Martial science teaching methods accelerate learning time and reduce class time and expenses. Students are taught skills that are retained as reflexive memory (muscle memory / operant conditioning). Skills are safely practiced full force against padded assailants who model realistic scenarios — helping overcome natural fears and enabling long-term retention.",
+      "For ages 15 and older: teenagers can build confidence and self-esteem while maintaining a peaceful mindset. Knowing how to fight back decreases the need to fight. The best self-defense training is learning how to win without fighting — but derived from knowing how to fight when needed.",
+      "Men suffering from Post-Traumatic Stress Disorder (PTSD) have used this training experience to address prior trauma in a positive and life-changing manner.",
+      "The men's course enhances martial arts training and addresses critical thinking, conflict resolution, and the legalities of self-defense in extreme situations — including working in the physiological fight-or-flight state. Students practice with full speed and power against an unarmed attacker, both standing and on the ground."
+    ],
+    "shortIntenseBody": "The Men's Basic Self-Defense Course is offered upon demand in small groups of 12 to 15, with an instructor team assembled at a convenient location.",
+    "referencesParagraphs": [
+      "Dan Millman (Way of the Peaceful Warrior): \"The Men's Model Mugging Course is one of the very best and most practical training I've ever taken. It turned a rag-tag bunch of guys into a tough, caring, vulnerable, powerful, and loving team... It's not just a course about fighting; it's a warrior's training for life.\"",
+      "Jerry Robinson (Health for Life): \"One hears that developing the Warrior Spirit requires years of indoctrination into the martial arts or at the very least, a pilgrimage to the Far East. Not so. Matt Thomas has found a way to develop it in a weekend. Poignant, uplifting, primal, above all, empowering — Model Mugging for Men confronts you with the reality of mortal combat, and teaches you to survive.\"",
+      "Lt. Col. Jack Cirie (U.S.M.C. retired), Director of Training & Development, SportsMind, Inc.: \"Transformation at the deepest level requires at least these events: 1) an experience of safety so as to allow a great risking, 2) an experience of success so as to encourage more risking, 3) acknowledgment that the success comes from one's own power and nowhere else. The Model Mugging self-defense program achieves these extraordinary events over and over again.\""
+    ]
+  },
+  "mensBasicPlanNextStep": {
+    "eyebrow": "Plan your next step",
+    "title": "Men's basic — plan your next step confidently",
+    "subtitle": "Browse the schedule for dates in your area, or contact us if you need help choosing the right cohort.",
+    "primaryLabel": "View schedule",
+    "primaryHref": "/schedule",
+    "secondaryLabel": "Contact us",
+    "secondaryHref": "/contact"
+  },
+  "mensBasicPageSections": [
+    {
+      "_type": "imageCardsSection",
+      "_key": "explore-resources",
+      "title": "Explore training resources",
+      "subtitle": "Use these quick links while editing this page content in Sanity.",
+      "cards": [
+        {
+          "_key": "card-types",
+          "title": "Types of training",
+          "description": "Compare basic, advanced, youth, and specialty paths.",
+          "href": "/types-of-training",
+          "linkLabel": "Explore training types"
+        },
+        {
+          "_key": "card-course",
+          "title": "Course description",
+          "description": "See format, intensity, and graduation expectations.",
+          "href": "/course-description",
+          "linkLabel": "Read course details"
+        },
+        {
+          "_key": "card-schedule",
+          "title": "Find a class date",
+          "description": "Browse upcoming training dates by region.",
+          "href": "/schedule",
+          "linkLabel": "Open schedule"
+        }
+      ]
+    },
+    {
+      "_type": "imageCardsSection",
+      "_key": "more-training",
+      "title": "More in Training",
+      "subtitle": "Continue browsing related pages from the same section.",
+      "cards": [
+        {
+          "_key": "more-types",
+          "title": "Types of training",
+          "description": "Open Types of training details and local context.",
+          "href": "/types-of-training",
+          "linkLabel": "Open page"
+        },
+        {
+          "_key": "more-course",
+          "title": "Course description",
+          "description": "Open Course description details and local context.",
+          "href": "/course-description",
+          "linkLabel": "Open page"
+        },
+        {
+          "_key": "more-instructor",
+          "title": "Instructor certification",
+          "description": "Open Instructor certification details and local context.",
+          "href": "/self-defense-instructor-training-and-certification",
+          "linkLabel": "Open page"
+        }
+      ]
+    }
+  ]
+}
